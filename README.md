@@ -12,4 +12,4 @@
 
 ## 部署
 
-GitHub Pages 从 main 分支根目录发布。index.html 已内嵌所需样式和脚本，无需安装依赖。网易云歌单链接导入使用现有公开服务；接口受限时，可使用文本、CSV 或 JSON 导入。
+GitHub Pages 从 main 分支根目录发布。index.html 已内嵌所需样式和脚本，无需安装依赖。网易云短链、完整链接与数字 ID 通过独立的 [GoMusic](https://github.com/Bistutu/GoMusic) 服务（sss.unmeta.cn）读取，不连接 chatgpt.site。仅发送歌单链接，不上传本地排名；读取歌曲名与歌手，不提供专辑和封面。第三方接口可能受限，失败时不会覆盖本地进度。
